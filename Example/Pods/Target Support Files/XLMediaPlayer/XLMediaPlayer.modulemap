@@ -1,0 +1,6 @@
+framework module XLMediaPlayer {
+  umbrella header "XLMediaPlayer-umbrella.h"
+
+  export *
+  module * { export * }
+}

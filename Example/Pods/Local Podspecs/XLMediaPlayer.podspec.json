@@ -1,0 +1,22 @@
+{
+  "name": "XLMediaPlayer",
+  "version": "0.1.0",
+  "summary": "A short description of XLMediaPlayer.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xianlong.liao@gmail.com/XLMediaPlayer",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xianlong.liao@gmail.com": "xianlong.liao@icaikee.com"
+  },
+  "source": {
+    "git": "https://github.com/xianlong.liao@gmail.com/XLMediaPlayer.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "XLMediaPlayer/Classes/**/*"
+}
