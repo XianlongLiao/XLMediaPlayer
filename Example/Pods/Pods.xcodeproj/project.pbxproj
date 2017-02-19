@@ -36,6 +36,16 @@
 		3D1C615E741E95E2199E36C47AFE618A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8DB1C700296DFB23B88DE8C25EAC168 /* Foundation.framework */; };
 		41CC214541946B82A25CE427BB81ABEA /* EXPMatchers+beKindOf.h in Headers */ = {isa = PBXBuildFile; fileRef = DF4BD2050ABE1205D1B1A164803A18DA /* EXPMatchers+beKindOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		425C4DFD1FAB011D70F825631144BC4C /* EXPMatchers+equal.h in Headers */ = {isa = PBXBuildFile; fileRef = B618D49996FCD7F7FD5C94C024840087 /* EXPMatchers+equal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		427EE4921E599B6C00FE9247 /* VDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 427EE4881E599B6C00FE9247 /* VDefines.h */; };
+		427EE4931E599B6C00FE9247 /* Vitamio.h in Headers */ = {isa = PBXBuildFile; fileRef = 427EE4891E599B6C00FE9247 /* Vitamio.h */; };
+		427EE4941E599B6C00FE9247 /* VMediaExtracter.h in Headers */ = {isa = PBXBuildFile; fileRef = 427EE48A1E599B6C00FE9247 /* VMediaExtracter.h */; };
+		427EE4951E599B6C00FE9247 /* VMediaExtracterDef.h in Headers */ = {isa = PBXBuildFile; fileRef = 427EE48B1E599B6C00FE9247 /* VMediaExtracterDef.h */; };
+		427EE4961E599B6C00FE9247 /* VMediaPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 427EE48C1E599B6C00FE9247 /* VMediaPlayer.h */; };
+		427EE4971E599B6C00FE9247 /* VMediaPlayerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 427EE48D1E599B6C00FE9247 /* VMediaPlayerDelegate.h */; };
+		427EE4981E599B6C00FE9247 /* VPlayerManageDef.h in Headers */ = {isa = PBXBuildFile; fileRef = 427EE48E1E599B6C00FE9247 /* VPlayerManageDef.h */; };
+		427EE4991E599B6C00FE9247 /* VSingleton.h in Headers */ = {isa = PBXBuildFile; fileRef = 427EE48F1E599B6C00FE9247 /* VSingleton.h */; };
+		427EE49A1E599B6C00FE9247 /* libffmpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 427EE4901E599B6C00FE9247 /* libffmpeg.a */; };
+		427EE49B1E599B6C00FE9247 /* libVitamio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 427EE4911E599B6C00FE9247 /* libVitamio.a */; };
 		47BA77226056D790A2964605F468D6EA /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD199F953A76C011AAE0FEC9C76880F /* FBSnapshotTestCase-dummy.m */; };
 		47D171E32EAE4FB61A9971B9BC00226D /* EXPMatchers+beLessThan.m in Sources */ = {isa = PBXBuildFile; fileRef = 58335D3E2909BF5D62C81864F19B78F1 /* EXPMatchers+beLessThan.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		47EC7BD047C906B92B85399E097E258E /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = A29BA8C3E774C364BD56A4AAFFF1E6AA /* UIApplication+StrictKeyWindow.m */; };
@@ -143,7 +153,6 @@
 		E3355DB3F63F6FE79FD8DD6188B0B3A4 /* EXPMatchers+contain.h in Headers */ = {isa = PBXBuildFile; fileRef = F6ACA95F6EDBB1752AADF70C323E1E5F /* EXPMatchers+contain.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E61E28B50602F353D95914765667969F /* EXPMatcherHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 237C1D40E94ECB9726EC1CC5E6691588 /* EXPMatcherHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6D59CAA2A6E134A4643254406ED11F2 /* EXPMatchers+equal.m in Sources */ = {isa = PBXBuildFile; fileRef = 0782314CEFBB6F81294F8002EBFB578E /* EXPMatchers+equal.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E71031747119094D629861F15C0DD8C9 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE55155A5C6097CA563009E06F171EE /* ReplaceMe.m */; };
 		E972E6647713D21A0F21BDAD1816AA29 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = B44593C7806808BFFCA8CE943799073B /* UIImage+Snapshot.m */; };
 		EA5294C319F94E8A4032A59807673349 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0438870BEF19EF2588872D886D220DCE /* XCTest.framework */; };
 		EDF3CEAAF7922F570A5AD95B005C84F8 /* EXPMatchers+FBSnapshotTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B959D8DDAA2ED93C94CF628C922CD14 /* EXPMatchers+FBSnapshotTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -260,12 +269,21 @@
 		3E348D84229E9000F93233339AFC317B /* EXPDoubleTuple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPDoubleTuple.m; path = Expecta/EXPDoubleTuple.m; sourceTree = "<group>"; };
 		3E5CA004F4DF355EA4719088D8D69D6D /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		3F862797664D0A6668AE953CB22045C0 /* Specta.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Specta.modulemap; sourceTree = "<group>"; };
-		3FE55155A5C6097CA563009E06F171EE /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		404F5B0F74F33A2ABE9160A29F92ED00 /* XLMediaPlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XLMediaPlayer.xcconfig; sourceTree = "<group>"; };
 		40C1C5483FA203B0ACEDDA25D2E3CC63 /* XLMediaPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XLMediaPlayer-dummy.m"; sourceTree = "<group>"; };
 		419377E544AC43AB5272D6BABBDFC7F4 /* Expecta+Snapshots-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta+Snapshots-prefix.pch"; sourceTree = "<group>"; };
 		41CC8500B4D128B47A9DF1FCAED5D2DF /* Pods-XLMediaPlayer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XLMediaPlayer_Example-frameworks.sh"; sourceTree = "<group>"; };
 		42785F13EF84B082ACE2FE7CAE842881 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		427EE4881E599B6C00FE9247 /* VDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDefines.h; sourceTree = "<group>"; };
+		427EE4891E599B6C00FE9247 /* Vitamio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vitamio.h; sourceTree = "<group>"; };
+		427EE48A1E599B6C00FE9247 /* VMediaExtracter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMediaExtracter.h; sourceTree = "<group>"; };
+		427EE48B1E599B6C00FE9247 /* VMediaExtracterDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMediaExtracterDef.h; sourceTree = "<group>"; };
+		427EE48C1E599B6C00FE9247 /* VMediaPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMediaPlayer.h; sourceTree = "<group>"; };
+		427EE48D1E599B6C00FE9247 /* VMediaPlayerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMediaPlayerDelegate.h; sourceTree = "<group>"; };
+		427EE48E1E599B6C00FE9247 /* VPlayerManageDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPlayerManageDef.h; sourceTree = "<group>"; };
+		427EE48F1E599B6C00FE9247 /* VSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSingleton.h; sourceTree = "<group>"; };
+		427EE4901E599B6C00FE9247 /* libffmpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libffmpeg.a; sourceTree = "<group>"; };
+		427EE4911E599B6C00FE9247 /* libVitamio.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libVitamio.a; sourceTree = "<group>"; };
 		428F5AA64CB12DFC1C335C47914064E0 /* Expecta-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta-prefix.pch"; sourceTree = "<group>"; };
 		431B770DD18C6C810E0ECD250D063471 /* EXPMatchers+postNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+postNotification.h"; path = "Expecta/Matchers/EXPMatchers+postNotification.h"; sourceTree = "<group>"; };
 		43D9D3D0C96D5284831B2C833DD79A36 /* EXPMatchers+beSubclassOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beSubclassOf.m"; path = "Expecta/Matchers/EXPMatchers+beSubclassOf.m"; sourceTree = "<group>"; };
@@ -453,6 +471,8 @@
 			files = (
 				3D1C615E741E95E2199E36C47AFE618A /* Foundation.framework in Frameworks */,
 				0B11B174B2ADC6056A89A3EBE624151D /* XCTest.framework in Frameworks */,
+				427EE49A1E599B6C00FE9247 /* libffmpeg.a in Frameworks */,
+				427EE49B1E599B6C00FE9247 /* libVitamio.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,6 +558,39 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		427EE4851E599B6C00FE9247 /* Vitamio */ = {
+			isa = PBXGroup;
+			children = (
+				427EE4861E599B6C00FE9247 /* include */,
+				427EE4901E599B6C00FE9247 /* libffmpeg.a */,
+				427EE4911E599B6C00FE9247 /* libVitamio.a */,
+			);
+			path = Vitamio;
+			sourceTree = "<group>";
+		};
+		427EE4861E599B6C00FE9247 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				427EE4871E599B6C00FE9247 /* Vitamio */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		427EE4871E599B6C00FE9247 /* Vitamio */ = {
+			isa = PBXGroup;
+			children = (
+				427EE4881E599B6C00FE9247 /* VDefines.h */,
+				427EE4891E599B6C00FE9247 /* Vitamio.h */,
+				427EE48A1E599B6C00FE9247 /* VMediaExtracter.h */,
+				427EE48B1E599B6C00FE9247 /* VMediaExtracterDef.h */,
+				427EE48C1E599B6C00FE9247 /* VMediaPlayer.h */,
+				427EE48D1E599B6C00FE9247 /* VMediaPlayerDelegate.h */,
+				427EE48E1E599B6C00FE9247 /* VPlayerManageDef.h */,
+				427EE48F1E599B6C00FE9247 /* VSingleton.h */,
+			);
+			path = Vitamio;
+			sourceTree = "<group>";
+		};
 		65CEC440FAF4B30A5C142B0851D14A66 /* Pods-XLMediaPlayer_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -559,6 +612,7 @@
 		7411E37BFD42BDB60393BA05526E2A3E /* XLMediaPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				427EE4851E599B6C00FE9247 /* Vitamio */,
 				F0F789D965F2C6761D3DFCA3F6C8A4A1 /* Classes */,
 			);
 			path = XLMediaPlayer;
@@ -811,7 +865,6 @@
 		F0F789D965F2C6761D3DFCA3F6C8A4A1 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				3FE55155A5C6097CA563009E06F171EE /* ReplaceMe.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -880,14 +933,19 @@
 				0E86BBA3A65849769B47995A5E91C881 /* Expecta-umbrella.h in Headers */,
 				A0B36C4898CD3A75ED692AE1B945EFED /* Expecta.h in Headers */,
 				8B0A34DADDB56E70CF4A5177E65AA081 /* ExpectaObject.h in Headers */,
+				427EE4971E599B6C00FE9247 /* VMediaPlayerDelegate.h in Headers */,
 				ABBDD0372C687211E68EDCE0166F3632 /* ExpectaSupport.h in Headers */,
 				FD39ACDEA6F0B6D6DBB730547CE18BA6 /* EXPExpect.h in Headers */,
 				4CA4F8F64565882DCFA174872749C0EF /* EXPFloatTuple.h in Headers */,
 				1009851D0C0B3FCBC574C414CC4D31B0 /* EXPMatcher.h in Headers */,
+				427EE4991E599B6C00FE9247 /* VSingleton.h in Headers */,
 				E61E28B50602F353D95914765667969F /* EXPMatcherHelpers.h in Headers */,
 				4861F2FFD5A4306E7B7BD3CD0D8199AC /* EXPMatchers+beCloseTo.h in Headers */,
 				B1487AC2DD502CCE46631C123E047D28 /* EXPMatchers+beFalsy.h in Headers */,
+				427EE4951E599B6C00FE9247 /* VMediaExtracterDef.h in Headers */,
 				8C14546CF091E0A5B1F0F37F576990B8 /* EXPMatchers+beginWith.h in Headers */,
+				427EE4981E599B6C00FE9247 /* VPlayerManageDef.h in Headers */,
+				427EE4941E599B6C00FE9247 /* VMediaExtracter.h in Headers */,
 				7E81176499F06E523CE3039B08AB5051 /* EXPMatchers+beGreaterThan.h in Headers */,
 				BBC7D292529B7E5DB953171190E321AF /* EXPMatchers+beGreaterThanOrEqualTo.h in Headers */,
 				8B8C4B3E28E6FC6D26037EFC282BE4C5 /* EXPMatchers+beIdenticalTo.h in Headers */,
@@ -897,8 +955,10 @@
 				E233F5CF4BF16CFB539804C4E995C355 /* EXPMatchers+beLessThan.h in Headers */,
 				AA5060419F1307F5F03ECBEA70DB186C /* EXPMatchers+beLessThanOrEqualTo.h in Headers */,
 				64C46AF200F2347115A0DF2799D6E403 /* EXPMatchers+beNil.h in Headers */,
+				427EE4921E599B6C00FE9247 /* VDefines.h in Headers */,
 				CB99A2D7D003745153A564346DF8ABA8 /* EXPMatchers+beSubclassOf.h in Headers */,
 				FC6474103AA989EBD5368772037BE0BB /* EXPMatchers+beSupersetOf.h in Headers */,
+				427EE4931E599B6C00FE9247 /* Vitamio.h in Headers */,
 				F74F0174B426B7EAB501A3788E5D381F /* EXPMatchers+beTruthy.h in Headers */,
 				DC423A980C991970F4D637AC4C47D863 /* EXPMatchers+conformTo.h in Headers */,
 				E3355DB3F63F6FE79FD8DD6188B0B3A4 /* EXPMatchers+contain.h in Headers */,
@@ -913,6 +973,7 @@
 				9CAFC7DAE2E661FC92393E5CC55D1D61 /* EXPMatchers.h in Headers */,
 				60CD83FA1B2BF6E93B59834C1E0CBEF0 /* EXPUnsupportedObject.h in Headers */,
 				DB8F3665E9E382DF52E0DCB4DECE5EAE /* NSObject+Expecta.h in Headers */,
+				427EE4961E599B6C00FE9247 /* VMediaPlayer.h in Headers */,
 				5922E3B61E351E2A21095BD92E4FE8AC /* NSValue+Expecta.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1165,7 +1226,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E71031747119094D629861F15C0DD8C9 /* ReplaceMe.m in Sources */,
 				49A6FD837ED70F891B6AD89CB3882FC5 /* XLMediaPlayer-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

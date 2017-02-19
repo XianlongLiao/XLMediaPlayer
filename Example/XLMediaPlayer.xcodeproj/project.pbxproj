@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		427EE44C1E59974000FE9247 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 427EE44B1E59974000FE9247 /* AVFoundation.framework */; };
+		427EE44E1E59974C00FE9247 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 427EE44D1E59974C00FE9247 /* AudioToolbox.framework */; };
+		427EE4501E59975B00FE9247 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 427EE44F1E59975B00FE9247 /* CoreMedia.framework */; };
+		427EE4521E59976900FE9247 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 427EE4511E59976900FE9247 /* MediaPlayer.framework */; };
+		427EE4541E59977000FE9247 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 427EE4531E59977000FE9247 /* OpenGLES.framework */; };
+		427EE4561E59977700FE9247 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 427EE4551E59977700FE9247 /* QuartzCore.framework */; };
+		427EE4581E59978400FE9247 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 427EE4571E59978400FE9247 /* libbz2.tbd */; };
+		427EE45A1E59978B00FE9247 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 427EE4591E59978B00FE9247 /* libz.tbd */; };
+		427EE45C1E59979400FE9247 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 427EE45B1E59979400FE9247 /* libstdc++.tbd */; };
+		427EE45E1E59979D00FE9247 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 427EE45D1E59979D00FE9247 /* libiconv.tbd */; };
 		55E152710F4D86E63FE39491 /* Pods_XLMediaPlayer_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0F98D643A27B1F222DA68C4 /* Pods_XLMediaPlayer_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -39,6 +49,16 @@
 /* Begin PBXFileReference section */
 		0CF4BD6EEC0F530EF9E06847 /* Pods-XLMediaPlayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLMediaPlayer_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XLMediaPlayer_Tests/Pods-XLMediaPlayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		12D497E090B5B53F6773BD7A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		427EE44B1E59974000FE9247 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		427EE44D1E59974C00FE9247 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		427EE44F1E59975B00FE9247 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		427EE4511E59976900FE9247 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		427EE4531E59977000FE9247 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		427EE4551E59977700FE9247 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		427EE4571E59978400FE9247 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		427EE4591E59978B00FE9247 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		427EE45B1E59979400FE9247 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		427EE45D1E59979D00FE9247 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 		4EF1CA7C0A4AACD95F513997 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* XLMediaPlayer_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLMediaPlayer_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -74,9 +94,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
-				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
+				427EE45E1E59979D00FE9247 /* libiconv.tbd in Frameworks */,
+				427EE45C1E59979400FE9247 /* libstdc++.tbd in Frameworks */,
+				427EE45A1E59978B00FE9247 /* libz.tbd in Frameworks */,
+				427EE4581E59978400FE9247 /* libbz2.tbd in Frameworks */,
+				427EE4561E59977700FE9247 /* QuartzCore.framework in Frameworks */,
+				427EE4541E59977000FE9247 /* OpenGLES.framework in Frameworks */,
+				427EE4521E59976900FE9247 /* MediaPlayer.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				427EE4501E59975B00FE9247 /* CoreMedia.framework in Frameworks */,
+				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
+				427EE44E1E59974C00FE9247 /* AudioToolbox.framework in Frameworks */,
+				427EE44C1E59974000FE9247 /* AVFoundation.framework in Frameworks */,
+				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				8F625D6E0FA2A5F6F49C6115 /* Pods_XLMediaPlayer_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -130,6 +160,16 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				427EE45D1E59979D00FE9247 /* libiconv.tbd */,
+				427EE45B1E59979400FE9247 /* libstdc++.tbd */,
+				427EE4591E59978B00FE9247 /* libz.tbd */,
+				427EE4571E59978400FE9247 /* libbz2.tbd */,
+				427EE4551E59977700FE9247 /* QuartzCore.framework */,
+				427EE4531E59977000FE9247 /* OpenGLES.framework */,
+				427EE4511E59976900FE9247 /* MediaPlayer.framework */,
+				427EE44F1E59975B00FE9247 /* CoreMedia.framework */,
+				427EE44D1E59974C00FE9247 /* AudioToolbox.framework */,
+				427EE44B1E59974000FE9247 /* AVFoundation.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -538,6 +578,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XLMediaPlayer/XLMediaPlayer-Prefix.pch";
 				INFOPLIST_FILE = "XLMediaPlayer/XLMediaPlayer-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vitamio",
+				);
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -553,6 +597,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XLMediaPlayer/XLMediaPlayer-Prefix.pch";
 				INFOPLIST_FILE = "XLMediaPlayer/XLMediaPlayer-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vitamio",
+				);
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
